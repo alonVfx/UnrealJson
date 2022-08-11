@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+	"A2":"100",
+	"A3":"50",
+	"A4":"100",
+	"A5":"25",
+	"A6":"15",
+	"A7":"55",
+	"A8":"100",
+	"A9":"200",
+	"A10":"20",
+	"A11":"2250",
+	"A12":"1100", 
+	    
+      "attributes": {
+
+		  
+        "title": "JSON:API paints my bikeshed!",
+        "body": "The shortest article. Ever.",
+        "created": "2015-05-22T14:56:29.000Z",
+        "updated": "2015-05-22T14:56:28.000Z"
+      },
+      "relationships": {
+        "author": {
+          "data": {
+            "id": "42",
+            "type": "people"
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "people",
+      "id": "42",
+      "attributes": {
+        "name": "John",
+        "age": 80,
+        "gender": "male"
+      }
+    }
+  ]
+}
