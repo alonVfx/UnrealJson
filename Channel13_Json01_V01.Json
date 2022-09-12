@@ -1,0 +1,20 @@
+{
+  "Miflaga": [
+    {
+	"mahal":"1000",
+	    
+	"yeshatid":"50",
+	}
+  ],
+  "Votes": [
+    {
+      "telaviv": "people",
+      "holon": "42",
+      "attributes": {
+        "name": "John",
+        "age": 80,
+        "gender": "male"
+      }
+    }
+  ]
+}
